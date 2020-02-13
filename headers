@@ -1,0 +1,14 @@
+Expires: Indicates a date and time after which a response is considered safe.
+Date: A general header containing the date and time the message was sent.
+Cache-Control: A general header specifying rules for caching in both requests and responses. Rules for length of cache are measured in seconds.
+ETag: Identifies a specific resource version.
+Vary: Determines how to match future request headers to decide whether the cached response can be used rather than requesting a fresh one.
+Vary: Determines how to match future request headers to decide whether the cached response can be used rather than requesting a fresh one.
+Content Type: Indicates the resource's media type.
+Content Encoding: An entity header indicating the encoding method applied to the entity body.
+X Content Type Options: Can be used to opt out of MIME type sniffing a response away from the declared content type.
+X Frame Options: Used to avoid clickjacking attacks by making sure their content is not embedded into other sites.
+X XSS Protection: Stops pages from loading when they detect reflected cross-site scripting attacks.
+Server: Contains information about how the server handles requests.
+Alt Svc: Custom header.
+Transfer Encoding: Specifying the form of encoding used to transfer the entity to the user.
